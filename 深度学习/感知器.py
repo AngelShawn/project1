@@ -2,7 +2,7 @@ from functools import reduce
 
 
 class Perceptron(object):
-    # activator是激活函数
+    # activator是激活函数de
     def __init__(self,input_num,activator):
         self.activator = activator
         self.weights = [0.0 for _ in range(input_num)]
